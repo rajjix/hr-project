@@ -1,15 +1,10 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { Home, FileText, BarChart2, Users, Briefcase } from "lucide-react"
+import { Home, BarChart2, Users, Briefcase } from "lucide-react"
 
 const Sidebar: React.FC = () => {
   const navItems = [
     { to: "/", label: "Home", icon: <Home size={18} /> },
-    {
-      to: "/job-description",
-      label: "Job Description Management",
-      icon: <FileText size={18} />,
-    },
     {
       to: "/reports",
       label: "Reports & Analytics",
